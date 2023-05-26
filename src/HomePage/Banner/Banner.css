@@ -1,0 +1,9 @@
+.banner{
+    background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.811), rgba(0, 0, 0, 0.174)),
+    url('../../assets/images/banner.png');
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,59 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn-pr {
+    @apply btn font-bold px-5 bg-[#BAFF39] text-black border-none rounded-none polygon 
+  }
+  .btn-pr-secondary {
+    @apply btn font-bold px-5 bg-[white] text-black border-none rounded-none polygon 
+  }
+}
+
+.polygon{
+  clip-path: polygon(13% 0, 100% 0%, 88% 100%, 0% 100%);
+}
+
+/* changed some default daisyUi styles */
+/* text & background color */
+.active{
+  color: #BAFF39;
+  background-color: inherit;
+}
+.text-pr{
+  color: #BAFF39
+}
+.bg-pr{
+  background-color: #BAFF39;
+}
+a{
+  border-radius: 0 !important;
+}
+a:active{
+  border-radius: 0 !important;
+  background-color: inherit;
+}
+a:hover{
+  color: #BAFF39;
+
+}
+.navbar {
+  background-color: #6E6E6E;
+  color: white;
+}
+
+/* hover effect*/
+
+.btn-pr:hover {
+  background-color: white !important;
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #a4a4a449;
+}
